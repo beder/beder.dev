@@ -1,0 +1,34 @@
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+
+.github-icon {
+  color: #030303;
+}
+
+.linkedin-icon {
+  color: #1c87bd;
+}
+
+.twitter-icon {
+  color: #1da1f2;
+}
+
+.facebook-icon {
+  color: #3765a3;
+}
+
+.google-plus-icon {
+  color: #dd4c40;
+}
+
+.profile-name {
+  font-size: 150%;
+}
+
+.profile-title {
+  font-size: 125%;
+}
