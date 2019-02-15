@@ -21,14 +21,48 @@
   color: #3765a3;
 }
 
-.google-plus-icon {
-  color: #dd4c40;
-}
-
-.profile-name {
-  font-size: 150%;
+.container {
+  padding: 0;
 }
 
 .profile-title {
-  font-size: 125%;
+  font-size: 200%;
+  padding: 10px 30px 10px 30px;
+}
+
+.profile-title > p {
+  margin: 0;
+}
+
+.profile-label {
+  font-size: 50%;
+  margin-bottom: 0;
+  text-transform: lowercase;
+}
+
+.profile {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #504440;
+}
+
+.profile-name {
+  background-color: #65a74d;
+  color: #ffffff;
+  font-size: 250%;
+  margin: 0;
+  padding: 30px 30px 30px 30px;
+  text-transform: uppercase;
+}
+
+.profile-contents {
+  padding: 10px 30px 10px 30px;
+}
+
+footer {
+  background-color: #bbbbbb;
+  padding: 10px 30px 10px 30px;
+}
+
+footer > p {
+  color: #ffffff;
 }
