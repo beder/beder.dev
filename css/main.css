@@ -21,10 +21,6 @@
   color: #3765a3;
 }
 
-.container {
-  padding: 0;
-}
-
 .profile-title {
   font-size: 200%;
   padding: 10px 30px 10px 30px;
@@ -46,8 +42,11 @@
 }
 
 .profile-name {
-  background-color: #65a74d;
-  color: #ffffff;
+  background-image: linear-gradient(#65a74d, #65a74d);
+  background-position: 30px 20px;
+  background-repeat: no-repeat;
+  background-size: 50px 5px;
+  color: #65a74d;
   font-size: 250%;
   margin: 0;
   padding: 30px 30px 30px 30px;
@@ -59,10 +58,15 @@
 }
 
 footer {
-  background-color: #bbbbbb;
+  background-image: linear-gradient(#504440, #504440);
+  background-position: 30px 0px;
+  background-repeat: no-repeat;
+  background-size: 50px 5px;
   padding: 10px 30px 10px 30px;
 }
 
 footer > p {
-  color: #ffffff;
+  color: #504440;
+  font-weight: bold;
+  text-transform: uppercase;
 }
