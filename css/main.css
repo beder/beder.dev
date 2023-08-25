@@ -40,7 +40,7 @@ body {
 
 .profile {
   font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
-  color: #F1F2F3;
+  color: #CACED1;
 }
 
 .profile-name {
@@ -63,6 +63,6 @@ footer {
 }
 
 footer > p {
-  color: #F1F2F3;
+  color: #CACED1;
   font-weight: bold;
 }
