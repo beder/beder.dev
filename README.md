@@ -1,6 +1,6 @@
-# beder.dev
+# beder.dev Website
 
-This repository contains the files for the personal website of Beder Acosta Borges, a software engineer based in Milan, Italy.
+The source code for the official website of beder.dev, a software development company specializing in custom software solutions, full-stack development, and data analysis.
 
 ## Contact
 
