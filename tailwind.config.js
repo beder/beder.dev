@@ -4,17 +4,19 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        paper: '#232120',
-        ink: '#ece7df',
-        muted: '#a8a196',
-        rule: '#3a3733',
+        paper: '#faf7f2',
+        ink: '#221e19',
+        muted: '#5f584d',
+        rule: '#e8e1d5',
         accent: {
-          DEFAULT: '#4caf50',
-          soft: '#3d8f40',
+          DEFAULT: '#38684a',
+          deep: '#2b5039',
+          underline: '#b9cfc1',
         },
       },
       fontFamily: {
-        display: ['Georgia', 'Times New Roman', 'serif'],
+        display: ['"Source Serif 4"', 'Georgia', 'serif'],
+        sans: ['"Source Sans 3"', 'system-ui', 'sans-serif'],
       },
       maxWidth: {
         column: '44rem',
