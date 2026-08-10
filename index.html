@@ -11,9 +11,11 @@
   <meta property="og:url" content="https://beder.dev/" />
   <meta property="og:site_name" content="beder.dev" />
   <meta property="og:title" content="Beder Acosta Borges · beder.dev" />
-  <meta property="og:description" content="Software that outlasts my involvement. Nearly three decades of building B2B products and leading the teams that build them." />
-  <meta property="og:image" content="https://beder.dev/android-chrome-512x512.png" />
-  <meta name="twitter:card" content="summary" />
+  <meta property="og:description" content="Software you can run without me. Nearly three decades of building B2B products and leading the teams that build them." />
+  <meta property="og:image" content="https://beder.dev/img/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
   <link href="css/main.css" rel="stylesheet" type="text/css" />
   <link rel="preload" href="fonts/source-serif-4-latin-600-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="fonts/source-sans-3-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
@@ -25,141 +27,140 @@
   <meta name="theme-color" content="#faf7f2">
 </head>
 
-<body class="bg-paper text-ink font-sans text-[1.0625rem] leading-[1.65] antialiased">
-  <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-10 focus:bg-accent focus:text-paper focus:px-3 focus:py-1.5">Skip to content</a>
+<body>
+  <a href="#main" class="skip-link">Skip to content</a>
 
-  <header class="max-w-column mx-auto px-6 pt-8 pb-4">
-    <nav class="flex flex-wrap items-center gap-x-6 gap-y-3" aria-label="Main">
-      <a href="/" class="mr-auto" aria-label="beder.dev home">
-        <span class="text-[1.0625rem] font-semibold tracking-tight">beder.dev</span>
+  <header class="site-header column">
+    <nav class="site-nav" aria-label="Main">
+      <a href="/" aria-label="beder.dev home">
+        <span class="wordmark">beder.dev</span>
       </a>
-      <ul class="flex flex-wrap gap-x-6 gap-y-2 text-[0.9375rem] text-muted">
-        <li><a href="#how-i-work" class="hover:text-accent-deep">How I work</a></li>
-        <li><a href="#what-i-do" class="hover:text-accent-deep">What I do</a></li>
-        <li><a href="#selected-work" class="hover:text-accent-deep">Selected work</a></li>
-        <li><a href="#about" class="hover:text-accent-deep">About</a></li>
+      <ul class="nav-links">
+        <li><a href="#how-i-work">How I work</a></li>
+        <li><a href="#what-i-do">What I do</a></li>
+        <li><a href="#selected-work">Selected work</a></li>
+        <li><a href="#about">About</a></li>
       </ul>
     </nav>
   </header>
 
   <main id="main">
 
-    <section class="relative overflow-hidden">
-    <div class="max-w-column mx-auto px-6 pt-[6.5rem] pb-28">
-      <svg viewBox="0 0 180 180" class="lg:hidden h-24 w-24 mb-10 text-accent" fill="currentColor" aria-hidden="true">
-          <path d="m39.52 114.275 46.666-46.664 0.0041 28.276-18.386 18.384 18.386 18.374-0.0039 28.278z"/>
-          <path d="m142.868 114.285-46.671-46.664-0.004 28.276 18.388 18.384-18.388 18.374 0.004 28.278z"/>
-          <path d="m39.517 37.165 20-20 0.0031 62.835-20.002 20.003z"/>
-      </svg>
-      <h1 class="font-display font-semibold text-[clamp(2.375rem,5.5vw,3.5rem)] leading-[1.12] tracking-[-0.015em] [text-wrap:balance] lg:max-w-[36rem] xl:max-w-none">Software that outlasts my involvement.</h1>
-      <p class="mt-7 text-[1.1875rem] text-muted max-w-[36rem]">I'm Beder, a software engineer with nearly three decades of experience building B2B products and leading the teams that build them.</p>
-      <p class="mt-11">
-        <a href="https://www.linkedin.com/in/beder/" class="font-semibold text-accent underline decoration-accent-underline decoration-1 underline-offset-[5px] hover:text-accent-deep hover:decoration-accent-deep">Connect on LinkedIn&thinsp;→</a>
-      </p>
-    </div>
-      <svg viewBox="0 0 180 180" class="hidden lg:block absolute top-1/2 -translate-y-1/2 right-[-5.5rem] h-[20rem] w-[20rem] xl:right-[-6rem] xl:h-[22rem] xl:w-[22rem] 2xl:right-[-7rem] 2xl:h-[26rem] 2xl:w-[26rem] text-accent" fill="currentColor" aria-hidden="true">
-          <path d="m39.52 114.275 46.666-46.664 0.0041 28.276-18.386 18.384 18.386 18.374-0.0039 28.278z"/>
-          <path d="m142.868 114.285-46.671-46.664-0.004 28.276 18.388 18.384-18.388 18.374 0.004 28.278z"/>
-          <path d="m39.517 37.165 20-20 0.0031 62.835-20.002 20.003z"/>
-      </svg>
-    </section>
-
-    <section id="how-i-work" class="max-w-column mx-auto px-6 py-[4.5rem] border-t border-rule">
-      <h2 class="font-display font-semibold text-[1.75rem] tracking-[-0.01em]">How I work</h2>
-      <div class="mt-8 space-y-[1.375rem] text-lg max-w-[38rem]">
-        <p>Every engagement starts with listening. The stated problem is rarely the real one, and the first job is to find the pain point that actually matters, before any code is written.</p>
-        <p>Then we build together. I work with your people, not around them: decisions explained, trade-offs on the table, knowledge transferred as we go, not at the end.</p>
-        <p>The deliverable is always one you fully own. My measure of success is that you don't need me afterwards: systems your team can run, extend, and change on their own.</p>
-        <p class="font-display italic text-[1.375rem] leading-[1.4]">Empowerment, never dependency.</p>
+    <section>
+      <div class="hero column">
+        <div class="hero-grid">
+          <svg viewBox="39.5 17.1 103.4 143.9" class="hero-mark" fill="currentColor" aria-hidden="true">
+            <path d="m39.52 114.275 46.666-46.664 0.0041 28.276-18.386 18.384 18.386 18.374-0.0039 28.278z"/>
+            <path d="m142.868 114.285-46.671-46.664-0.004 28.276 18.388 18.384-18.388 18.374 0.004 28.278z"/>
+            <path d="m39.517 37.165 20-20 0.0031 62.835-20.002 20.003z"/>
+          </svg>
+          <div>
+            <h1>Software you can run without me.</h1>
+            <p class="hero-sub">I'm Beder, a software engineer with nearly three decades of experience building B2B products and leading the teams that build them.</p>
+            <p class="hero-cta">
+              <a href="https://www.linkedin.com/in/beder/">Connect on LinkedIn&thinsp;→</a>
+            </p>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section id="what-i-do" class="max-w-column mx-auto px-6 py-[4.5rem] border-t border-rule">
-      <h2 class="font-display font-semibold text-[1.75rem] tracking-[-0.01em]">What I do</h2>
-      <dl class="mt-8 space-y-8 max-w-[38rem]">
+    <section id="how-i-work" class="section column">
+      <h2>How I work</h2>
+      <div class="prose">
+        <p>Every engagement starts with listening. The stated problem is rarely the real one, and the first job is to find the pain point that actually matters, before any code is written.</p>
+        <p>Then we build together. I work with your people, not around them: decisions explained, trade-offs on the table, knowledge transferred as we go, not at the end.</p>
+        <p>The deliverable is always one you fully own. My measure of success is that you don't need me afterwards: systems your team can run, extend, and change on their own.</p>
+        <p class="pull-quote">Empowerment, never dependency.</p>
+      </div>
+    </section>
+
+    <section id="what-i-do" class="section column">
+      <h2>What I do</h2>
+      <dl class="services">
         <div>
-          <dt class="font-semibold">Custom software</dt>
-          <dd class="mt-1.5 text-muted">Product development from idea to production: scoping, architecture, iterative delivery, and the unglamorous parts (testing, deployment, maintenance) that make software dependable.</dd>
+          <dt>Custom software</dt>
+          <dd>Product development from idea to production: scoping, architecture, iterative delivery, and the unglamorous parts (testing, deployment, maintenance) that make software dependable.</dd>
         </div>
         <div>
-          <dt class="font-semibold">Full-stack platform work</dt>
-          <dd class="mt-1.5 text-muted">Web applications end to end: interfaces people actually use, back ends that stay reliable as usage grows, and the delivery pipeline between them.</dd>
+          <dt>Full-stack platform work</dt>
+          <dd>Web applications end to end: interfaces people actually use, back ends that stay reliable as usage grows, and the delivery pipeline between them.</dd>
         </div>
         <div>
-          <dt class="font-semibold">Data and automation</dt>
-          <dd class="mt-1.5 text-muted">Replacing manual, error-prone workflows: integrations between the systems you already use, data pipelines, and reports people can trust.</dd>
+          <dt>Data and automation</dt>
+          <dd>Replacing manual, error-prone workflows: integrations between the systems you already use, data pipelines, and reports people can trust.</dd>
         </div>
       </dl>
     </section>
 
-    <section id="selected-work" class="max-w-column mx-auto px-6 py-[4.5rem] border-t border-rule">
-      <h2 class="font-display font-semibold text-[1.75rem] tracking-[-0.01em]">Selected work</h2>
-      <p class="mt-3 text-muted">Three engagements, told honestly. Client names withheld, numbers real.</p>
+    <section id="selected-work" class="section column">
+      <h2>Selected work</h2>
+      <p class="section-lede">Three engagements, told honestly. Client names withheld, numbers real.</p>
 
-      <article class="mt-14">
-        <h3 class="font-display font-semibold text-[1.375rem] leading-[1.3]">From Word documents to an offer-to-order pipeline</h3>
-        <dl class="mt-6 grid grid-cols-1 gap-y-[1.125rem] sm:grid-cols-[7.5rem_1fr] sm:gap-x-8 sm:gap-y-[1.375rem]">
-          <dt class="text-xs font-semibold uppercase tracking-[0.14em] text-muted pt-[0.2em]">Client</dt>
-          <dd class="-mt-3.5 sm:mt-0">An SMB reselling enterprise engineering software (Siemens Teamcenter, NX, and Solid Edge).</dd>
-          <dt class="text-xs font-semibold uppercase tracking-[0.14em] text-muted pt-[0.2em]">Problem</dt>
-          <dd class="-mt-3.5 sm:mt-0">Every salesperson assembled offers by hand in Word and emailed them out, with no standard process, no pricing consistency, and no trail.</dd>
-          <dt class="text-xs font-semibold uppercase tracking-[0.14em] text-muted pt-[0.2em]">What I did</dt>
-          <dd class="-mt-3.5 sm:mt-0">Designed and built a web application (Ruby on Rails, PostgreSQL, Redis) that pulled products, pricing, clients, and contacts live from the company's CMS. Sales composed offers from real data instead of retyping it, tuned pricing within company discount parameters, versioned and sent offers, and tracked their status. Accepted offers were screened internally and became orders in the ERP automatically.</dd>
-          <dt class="text-xs font-semibold uppercase tracking-[0.14em] text-muted pt-[0.2em]">Outcome</dt>
-          <dd class="-mt-3.5 sm:mt-0">The entire sales team moved onto the system, the offer lifecycle was standardized end to end, and manual-input errors disappeared. I began this system as an employee and kept evolving it for a year afterwards as an independent consultant, then handed it over entirely. The client still runs it without me, which is the point.</dd>
+      <article class="case">
+        <h3>From Word documents to an offer-to-order pipeline</h3>
+        <dl>
+          <dt>Client</dt>
+          <dd>An SMB reselling enterprise engineering software (Siemens Teamcenter, NX, and Solid Edge).</dd>
+          <dt>Problem</dt>
+          <dd>Every salesperson assembled offers by hand in Word and emailed them out, with no standard process, no pricing consistency, and no trail.</dd>
+          <dt>What I did</dt>
+          <dd>Designed and built a web application (Ruby on Rails, PostgreSQL, Redis) that pulled products, pricing, clients, and contacts live from the company's CMS. Sales composed offers from real data instead of retyping it, tuned pricing within company discount parameters, versioned and sent offers, and tracked their status. Accepted offers were screened internally and became orders in the ERP automatically.</dd>
+          <dt>Outcome</dt>
+          <dd>The entire sales team moved onto the system, the offer lifecycle was standardized end to end, and manual-input errors disappeared. I began this system as an employee and kept evolving it for a year afterwards as an independent consultant, then handed it over entirely. The client still runs it without me, which is the point.</dd>
         </dl>
       </article>
 
-      <article class="mt-14">
-        <h3 class="font-display font-semibold text-[1.375rem] leading-[1.3]">Royalties without spreadsheets</h3>
-        <dl class="mt-6 grid grid-cols-1 gap-y-[1.125rem] sm:grid-cols-[7.5rem_1fr] sm:gap-x-8 sm:gap-y-[1.375rem]">
-          <dt class="text-xs font-semibold uppercase tracking-[0.14em] text-muted pt-[0.2em]">Client</dt>
-          <dd class="-mt-3.5 sm:mt-0">A small publisher of music-teaching books for children.</dd>
-          <dt class="text-xs font-semibold uppercase tracking-[0.14em] text-muted pt-[0.2em]">Problem</dt>
-          <dd class="-mt-3.5 sm:mt-0">Sales flowed in from two WooCommerce stores, Amazon, and physical print runs, and were reconciled by hand: reports downloaded manually, stitched together in Excel, and royalties calculated author by author.</dd>
-          <dt class="text-xs font-semibold uppercase tracking-[0.14em] text-muted pt-[0.2em]">What I did</dt>
-          <dd class="-mt-3.5 sm:mt-0">Built an Airtable-based automation that pulls WooCommerce sales every hour, ingests Amazon and print-shop reports, and computes sales and per-author royalties.</dd>
-          <dt class="text-xs font-semibold uppercase tracking-[0.14em] text-muted pt-[0.2em]">Outcome</dt>
-          <dd class="-mt-3.5 sm:mt-0">Manual data-entry errors went to zero, and time spent on sales and royalty reporting dropped by roughly 80%.</dd>
+      <article class="case">
+        <h3>Royalties without spreadsheets</h3>
+        <dl>
+          <dt>Client</dt>
+          <dd>A small publisher of music-teaching books for children.</dd>
+          <dt>Problem</dt>
+          <dd>Sales flowed in from two WooCommerce stores, Amazon, and physical print runs, and were reconciled by hand: reports downloaded manually, stitched together in Excel, and royalties calculated author by author.</dd>
+          <dt>What I did</dt>
+          <dd>Built an Airtable-based automation that pulls WooCommerce sales every hour, ingests Amazon and print-shop reports, and computes sales and per-author royalties.</dd>
+          <dt>Outcome</dt>
+          <dd>Manual data-entry errors went to zero, and time spent on sales and royalty reporting dropped by roughly 80%.</dd>
         </dl>
       </article>
 
-      <article class="mt-14">
-        <h3 class="font-display font-semibold text-[1.375rem] leading-[1.3]">A computer-vision pilot for eyewear market trends</h3>
-        <dl class="mt-6 grid grid-cols-1 gap-y-[1.125rem] sm:grid-cols-[7.5rem_1fr] sm:gap-x-8 sm:gap-y-[1.375rem]">
-          <dt class="text-xs font-semibold uppercase tracking-[0.14em] text-muted pt-[0.2em]">Client</dt>
-          <dd class="-mt-3.5 sm:mt-0">One of the world's largest eyewear companies.</dd>
-          <dt class="text-xs font-semibold uppercase tracking-[0.14em] text-muted pt-[0.2em]">Problem</dt>
-          <dd class="-mt-3.5 sm:mt-0">No systematic visibility into visual market trends: which shapes, colors, and materials were actually gaining ground.</dd>
-          <dt class="text-xs font-semibold uppercase tracking-[0.14em] text-muted pt-[0.2em]">What I did</dt>
-          <dd class="-mt-3.5 sm:mt-0">Built a proof-of-concept that collected eyewear imagery from social networks, brand sites, and specialist e-commerce; trained vision models, each specialized in one product feature (temple height, bridge shape, color, material), and composed them into a workflow that classified products, produced trend reports, and matched trends against the client's own catalog.</dd>
-          <dt class="text-xs font-semibold uppercase tracking-[0.14em] text-muted pt-[0.2em]">Outcome</dt>
-          <dd class="-mt-3.5 sm:mt-0">The pilot proved the approach worked. The client chose not to fund a production phase. An honest result, and a cheap one: that's what pilots are for.</dd>
+      <article class="case">
+        <h3>A computer-vision pilot for eyewear market trends</h3>
+        <dl>
+          <dt>Client</dt>
+          <dd>One of the world's largest eyewear companies.</dd>
+          <dt>Problem</dt>
+          <dd>No systematic visibility into visual market trends: which shapes, colors, and materials were actually gaining ground.</dd>
+          <dt>What I did</dt>
+          <dd>Built a proof-of-concept that collected eyewear imagery from social networks, brand sites, and specialist e-commerce; trained vision models, each specialized in one product feature (temple height, bridge shape, color, material), and composed them into a workflow that classified products, produced trend reports, and matched trends against the client's own catalog.</dd>
+          <dt>Outcome</dt>
+          <dd>The pilot proved the approach worked. The client chose not to fund a production phase. An honest result, and a cheap one: that's what pilots are for.</dd>
         </dl>
       </article>
     </section>
 
-    <section id="about" class="max-w-column mx-auto px-6 py-[4.5rem] border-t border-rule">
-      <h2 class="font-display font-semibold text-[1.75rem] tracking-[-0.01em]">About</h2>
-      <div class="mt-8 sm:flex sm:gap-8 sm:items-start max-w-[44rem]">
-        <img src="img/beder-photo-320.jpg" width="320" height="320" alt="Portrait of Beder Acosta Borges" class="w-32 sm:w-40 rounded-lg mb-6 sm:mb-0 shrink-0 [filter:sepia(.08)_saturate(1.05)]" />
-        <div class="space-y-[1.375rem] text-lg">
-        <p>beder.dev is the consulting practice of <strong>Beder Acosta Borges</strong>. Since 1998 I've designed and built B2B software across finance, energy, manufacturing, publishing, e-commerce, and payments, as an engineer, an architect, and a leader of distributed teams. beder.dev has been how I work with clients since 2015.</p>
-        <p>If any of this resonates, I'm easy to find.</p>
+    <section id="about" class="section column">
+      <h2>About</h2>
+      <div class="about-body">
+        <img src="img/beder-photo-320.jpg" srcset="img/beder-photo-320.jpg 1x, img/beder-photo-640.jpg 2x" width="320" height="320" alt="Portrait of Beder Acosta Borges" class="portrait" />
+        <div class="about-text">
+          <p>beder.dev is the consulting practice of <strong>Beder Acosta Borges</strong>. Since 1998 I've designed and built B2B software across finance, energy, manufacturing, publishing, e-commerce, and payments, as an engineer, an architect, and a leader of distributed teams. beder.dev has been how I work with clients since 2015.</p>
+          <p>If any of this resonates, I'm easy to find.</p>
         </div>
       </div>
-      <p class="mt-8 flex flex-wrap gap-x-6 gap-y-2">
-        <a href="https://www.linkedin.com/in/beder/" class="font-semibold text-accent hover:text-accent-deep hover:underline underline-offset-4">Message me on LinkedIn</a>
+      <p class="about-cta">
+        <a href="https://www.linkedin.com/in/beder/">Message me on LinkedIn</a>
       </p>
     </section>
 
   </main>
 
-  <footer class="border-t border-rule mt-8">
-    <div class="max-w-column mx-auto px-6 py-10 text-[0.9375rem] text-muted flex flex-wrap items-center gap-x-6 gap-y-2">
-      <p class="mr-auto">© 2026 Beder Acosta Borges · beder.dev</p>
-      <a href="https://github.com/beder" class="hover:text-accent-deep">GitHub</a>
-      <a href="https://www.linkedin.com/in/beder/" class="hover:text-accent-deep">LinkedIn</a>
+  <footer class="site-footer">
+    <div class="column">
+      <p>© 2026 Beder Acosta Borges · beder.dev</p>
+      <a href="https://github.com/beder">GitHub</a>
+      <a href="https://www.linkedin.com/in/beder/">LinkedIn</a>
     </div>
   </footer>
 </body>
