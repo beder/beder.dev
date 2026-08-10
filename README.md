@@ -1,12 +1,24 @@
-# beder.dev Website
+# beder.dev
 
-The source code for the official website of beder.dev, a software development company specializing in custom software solutions, full-stack development, and data analysis.
+Source of <https://beder.dev>, the professional site of Beder Acosta Borges.
 
-## Contact
+## Stack
 
-For inquiries or collaborations, you can reach out to Beder via the following platforms:
+Static HTML with a single hand-written stylesheet (`css/main.css`). No build
+step, no dependencies, no third-party requests: fonts are self-hosted woff2
+subsets, and the page carries zero scripts.
 
-- GitHub: [beder](https://github.com/beder)
-- LinkedIn: [beder](https://www.linkedin.com/in/beder)
+## Local preview
 
-Feel free to explore the website at [beder.dev](https://beder.dev)!
+Open `index.html` directly, or serve the folder:
+
+```sh
+docker compose up
+```
+
+and browse to <http://localhost>.
+
+## Deployment
+
+GitHub Pages serves the `master` branch at the `CNAME` domain. Merging to
+`master` is the deploy.
