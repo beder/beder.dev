@@ -228,10 +228,18 @@ body {
     --mark-shift: 5rem;
   }
 }
-@media (min-width: 1536px) {
+@media (min-width: 1440px) {
+  .hero-grid {
+    grid-template-columns: minmax(0, 1fr);
+    position: relative;
+  }
   .hero-mark {
-    --mark-w: 13rem;
-    --mark-shift: 7rem;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: auto;
+    right: calc((41rem - 100vw) / 2 + 6rem);
+    transform: none;
   }
 }
 
