@@ -47,6 +47,24 @@
   --accent-wash: #d9e6dd;
   --font-display: 'Source Serif 4', Georgia, serif;
   --font-sans: 'Source Sans 3', system-ui, sans-serif;
+  color-scheme: light;
+}
+
+/* Night stock: same page on darker paper. Tokens re-inked, geometry untouched. */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #181410;
+    --ink: #ece4d6;
+    --muted: #a89c8a;
+    --rule: #35302a;
+    --accent: #8fbb9d;
+    --accent-deep: #b1d2bc;
+    --accent-underline: #46614f;
+    --accent-wash: #24382c;
+    --portrait-filter: sepia(0.08) saturate(1.05) brightness(0.9) contrast(1.03);
+    --portrait-ring: 0 0 0 1px var(--rule);
+    color-scheme: dark;
+  }
 }
 
 /* Reset */
@@ -312,6 +330,9 @@ body {
 .case dd + dt {
   margin-top: 0.875rem;
 }
+.case dt.outcome {
+  color: var(--accent-deep);
+}
 .case dt {
   font-size: 0.75rem;
   line-height: 1rem;
@@ -340,7 +361,8 @@ body {
   border-radius: 0.5rem;
   margin-bottom: 1.5rem;
   flex-shrink: 0;
-  filter: sepia(0.08) saturate(1.05);
+  filter: var(--portrait-filter, sepia(0.08) saturate(1.05));
+  box-shadow: var(--portrait-ring, none);
 }
 .about-text {
   font-size: 1.125rem;
