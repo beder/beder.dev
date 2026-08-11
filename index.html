@@ -24,7 +24,8 @@
   <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
   <link rel="manifest" href="/manifest.json">
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#38684a">
-  <meta name="theme-color" content="#faf7f2">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#faf7f2">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#181410">
 </head>
 
 <body>
@@ -106,7 +107,7 @@
           <dd>Every salesperson assembled offers by hand in Word and emailed them out, with no standard process, no pricing consistency, and no trail.</dd>
           <dt>What I did</dt>
           <dd>Designed and built a web application (Ruby on Rails, PostgreSQL, Redis) that pulled products, pricing, clients, and contacts live from the company's CMS. Sales composed offers from real data instead of retyping it, tuned pricing within company discount parameters, versioned and sent offers, and tracked their status. Accepted offers were screened internally and became orders in the ERP automatically.</dd>
-          <dt>Outcome</dt>
+          <dt class="outcome">Outcome</dt>
           <dd>The entire sales team moved onto the system, the offer lifecycle was standardized end to end, and manual-input errors disappeared. I began this system as an employee and kept evolving it for a year afterwards as an independent consultant, then handed it over entirely. The client still runs it without me, which is the point.</dd>
         </dl>
       </article>
@@ -120,7 +121,7 @@
           <dd>Sales flowed in from two WooCommerce stores, Amazon, and physical print runs, and were reconciled by hand: reports downloaded manually, stitched together in Excel, and royalties calculated author by author.</dd>
           <dt>What I did</dt>
           <dd>Built an Airtable-based automation that pulls WooCommerce sales every hour, ingests Amazon and print-shop reports, and computes sales and per-author royalties.</dd>
-          <dt>Outcome</dt>
+          <dt class="outcome">Outcome</dt>
           <dd>Manual data-entry errors went to zero, and time spent on sales and royalty reporting dropped by roughly 80%.</dd>
         </dl>
       </article>
@@ -134,7 +135,7 @@
           <dd>No systematic visibility into visual market trends: which shapes, colors, and materials were actually gaining ground.</dd>
           <dt>What I did</dt>
           <dd>Built a proof-of-concept that collected eyewear imagery from social networks, brand sites, and specialist e-commerce; trained vision models, each specialized in one product feature (temple height, bridge shape, color, material), and composed them into a workflow that classified products, produced trend reports, and matched trends against the client's own catalog.</dd>
-          <dt>Outcome</dt>
+          <dt class="outcome">Outcome</dt>
           <dd>The pilot proved the approach worked. The client chose not to fund a production phase. An honest result, and a cheap one: that's what pilots are for.</dd>
         </dl>
       </article>
