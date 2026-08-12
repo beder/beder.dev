@@ -45,6 +45,7 @@
   --accent-deep: #2b5039;
   --accent-underline: #b9cfc1;
   --accent-wash: #d9e6dd;
+  --mark-ink: #38684a; /* identical to --accent in light; the mark no longer inherits text-duty adjustments */
   --font-display: 'Source Serif 4', Georgia, serif;
   --font-sans: 'Source Sans 3', system-ui, sans-serif;
   color-scheme: light;
@@ -61,6 +62,7 @@
     --accent-deep: #b1d2bc;
     --accent-underline: #46614f;
     --accent-wash: #24382c;
+    --mark-ink: #4e8f63; /* graphic duty: 4.74:1 non-text on --paper (floor 3:1), chroma over lightness */
     --portrait-filter: sepia(0.08) saturate(1.05) brightness(0.9) contrast(1.03);
     --portrait-ring: 0 0 0 1px var(--rule);
     color-scheme: dark;
@@ -189,7 +191,7 @@ body {
   width: var(--mark-w);
   aspect-ratio: 103.4 / 143.9;
   margin-bottom: 1.75rem;
-  color: var(--accent);
+  color: var(--mark-ink);
 }
 .hero h1 {
   font-family: var(--font-display);
@@ -270,8 +272,9 @@ body {
 .section > h2 {
   font-family: var(--font-display);
   font-weight: 600;
-  font-size: 1.75rem;
-  letter-spacing: -0.01em;
+  font-size: clamp(2rem, 1.6rem + 1.1vw, 2.25rem);
+  line-height: 1.25;
+  letter-spacing: -0.015em;
 }
 .section-lede {
   margin-top: 0.75rem;
@@ -418,6 +421,13 @@ body {
 .site-footer p {
   margin-right: auto;
 }
+.site-footer a {
+  text-decoration: underline;
+  text-decoration-color: var(--accent-underline);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 5px;
+}
 .site-footer a:hover {
   color: var(--accent-deep);
+  text-decoration-color: var(--accent-deep);
 }
