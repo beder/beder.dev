@@ -117,11 +117,26 @@ p, dd { text-wrap: pretty; }
   padding: 24px 0;
   border-bottom: 1px solid var(--ink);
 }
+.brand {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 9px;
+  margin-right: auto;
+}
+/* Brand tile: a background, never a text colour. Matches the icon set. */
+.brand-tile {
+  width: 26px;
+  height: 26px;
+  background: #3f9159;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  align-self: center;
+}
 .wordmark {
   font-size: 17px;
   font-weight: 600;
   letter-spacing: -0.025em;
-  margin-right: auto;
 }
 .mono {
   font-family: var(--font-mono);
