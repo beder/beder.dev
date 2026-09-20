@@ -298,7 +298,7 @@ h1 {
   text-transform: uppercase;
 }
 .record dt.outcome { color: var(--accent-strong); }
-.record dd { font-size: 17px; line-height: 1.6; }
+.record dd { font-size: 17px; line-height: 1.6; max-width: 40rem; }
 
 /* About */
 .about-body {
@@ -327,7 +327,7 @@ h1 {
 /* Colophon */
 .colophon-text {
   margin-top: 28px;
-  max-width: 38rem;
+  max-width: 34rem;
   font-size: 16px;
   line-height: 1.7;
   color: var(--muted);
