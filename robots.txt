@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://beder.dev/sitemap.xml
